@@ -1,0 +1,48 @@
+Date: 2026-06-12
+Modified File: src/main/java/org/example/ui/BattleScene.java
+Type of Change: Bug Fix & UI Polish
+Reason: Character sprite fell back to default appearance during battles because "Almamater" was not mapped to the "almamater" resource folder. Visible HP details were also disabled (SHOW_HP_TEXT = false), which hid enemy names and numeric HP.
+Impact: Player sprites now correctly show equipped Almamater armor in battle scenes. Enemy name and HP values are visible and aligned cleanly below the HP bars without overlapping frame borders.
+
+Date: 2026-06-12
+Modified File: src/main/java/org/example/battle/BattleManager.java
+Type of Change: Bug Fix
+Reason: Equipped armor was not being displayed in CLI battle output.
+Impact: CLI battles now print the active armor name and defense values.
+
+Date: 2026-06-12
+Modified File: All 18 Java Source Files under src/main/java/org/example
+Type of Change: Refactor
+Reason: Clean up source files structure by moving them into logically named sub-packages (core, character, battle, inventory, shop, items, monsters, ui, utils).
+Impact: Improved maintainability, cleaner code organization, and successful compilation under new sub-packages.
+
+Date: 2026-06-12
+Modified File: CHANGELOG_PROJECT.txt
+Type of Change: Added File
+Reason: Tracking all project modifications.
+Impact: Project modification logs are documented.
+
+Date: 2026-06-12
+Modified File: src/main/java/org/example/character/Karakter.java, src/main/java/org/example/shop/Shop.java, src/main/java/org/example/core/FakultasSihirApp.java
+Type of Change: Refactor & Code Quality Improvement
+Reason: Centralized memilikiItem check in Karakter.java and removed duplicate logic in Shop.java and FakultasSihirApp.java to improve readability and maintainability.
+Impact: Removed duplicate code blocks, leading to higher codebase quality and cleaner architecture.
+
+Date: 2026-06-12
+Modified File: src/main/java/org/example/core/Main.java, src/Main.java, and other duplicate files under src/
+Type of Change: Directory Cleanup & Relocation
+Reason: Relocated Main.java CLI launcher to the Maven packages subdirectories (org.example.core.Main) and deleted 16 duplicate Java source files in the src/ root directory.
+Impact: Cleaned up root folder clutter, ensuring only one copy of source files exists while preserving both CLI and GUI launch modes.
+
+Date: 2026-06-12
+Modified File: src/main/resources/assets/textures/ (character, kroco, boss dungoen, bar hp, location)
+Type of Change: Asset Optimization & Cleanup
+Reason: Deleted unreferenced asset folders that were cluttering resources (Swing uses /battle/ folder resources).
+Impact: Decreased project package size and cleaned up resources tree.
+
+Date: 2026-06-12
+Modified File: UML_CLASS_DIAGRAM.md, OOP_IMPLEMENTATION.md, PROJECT_STRUCTURE.md, REPORT_GUIDE.md, TEAM_CONTRIBUTION_TEMPLATE.md, README.md
+Type of Change: Added Documentation & Report Readiness Support
+Reason: Created reports and documentation files required for PPBO project submission, report generation, and presentation templates.
+Impact: Fully prepared the repository for university submission and report writing.
+
