@@ -15,8 +15,6 @@ Game RPG Akademik bertema kampus Universitas Gadjah Mada yang menggabungkan kons
 
 ---
 
----
-
 ## 📸 Screenshot Game
 
 ### Main Menu
@@ -89,10 +87,48 @@ Kode sumber diatur secara modular ke dalam sub-paket `org.example.*` di folder `
 
 ---
 
-## 📝 Panduan & Dokumentasi Pendukung Laporan
-Untuk membantu penyusunan laporan UAS, kami telah menyediakan dokumen pelengkap di folder root proyek:
-1.  [UML_CLASS_DIAGRAM.md](file:///c:/Users/Lenovo/Downloads/Game_Fakultas_Sihir_UGM-main/Game_Fakultas_Sihir_UGM-main/UML_CLASS_DIAGRAM.md): Diagram kelas lengkap dengan notasi sintaksis Mermaid.
-2.  [OOP_IMPLEMENTATION.md](file:///c:/Users/Lenovo/Downloads/Game_Fakultas_Sihir_UGM-main/Game_Fakultas_Sihir_UGM-main/OOP_IMPLEMENTATION.md): Dokumentasi kode yang mendemonstrasikan Enkapsulasi, Pewarisan, Polimorfisme, Overriding, Overloading, Kelas Abstrak, dan Antarmuka.
-3.  [PROJECT_STRUCTURE.md](file:///c:/Users/Lenovo/Downloads/Game_Fakultas_Sihir_UGM-main/Game_Fakultas_Sihir_UGM-main/PROJECT_STRUCTURE.md): Penjelasan rinci tentang package dan alur integrasi FXGL-Swing.
-4.  [REPORT_GUIDE.md](file:///c:/Users/Lenovo/Downloads/Game_Fakultas_Sihir_UGM-main/Game_Fakultas_Sihir_UGM-main/REPORT_GUIDE.md): Kisi-kisi outline penulisan laporan dari Bab 1 hingga Bab 7.
-5.  [TEAM_CONTRIBUTION_TEMPLATE.md](file:///c:/Users/Lenovo/Downloads/Game_Fakultas_Sihir_UGM-main/Game_Fakultas_Sihir_UGM-main/TEAM_CONTRIBUTION_TEMPLATE.md): Matriks kontribusi tugas anggota kelompok.
+## 📚 Dokumentasi Proyek
+
+Untuk membantu penyusunan laporan dan presentasi UAS PPBO, kami menyediakan dokumentasi pendukung berikut:
+
+- [UML Diagram](UML_CLASS_DIAGRAM.md)
+- [Implementasi OOP](OOP_IMPLEMENTATION.md)
+- [Struktur Kode Program](PROJECT_STRUCTURE.md)
+- [Panduan Penyusunan Laporan](REPORT_GUIDE.md)
+- [Pembagian Tugas Kelompok](TEAM_CONTRIBUTION_TEMPLATE.md)
+- [Audit Proyek](FINAL_PROJECT_AUDIT.md)
+- [Riwayat Perubahan](CHANGELOG_PROJECT.txt)
+
+---
+
+## 👥 Anggota Kelompok
+
+| Nama Lengkap | Peran Pengembangan |
+|-------------|-------------------|
+| Haydar Istma Ulhaq | Logika Game |
+| Achwan Anwar Hakim | Desain Assets |
+| Ahmad Tariq Hifzhillah | Desain Assets |
+| Hammam Muhammad Shidqii | GUI |
+| Muhammad Ardra Wirya | GUI |
+
+---
+
+## 📋 Pembagian Tugas Presentasi
+
+| Materi Presentasi | Penanggung Jawab |
+|------------------|------------------|
+| Pendahuluan | Achwan Anwar Hakim |
+| Desain Sistem (UML, Diagram, dsb.) | Haydar Istma Ulhaq |
+| Implementasi OOP | Ahmad Tariq Hifzhillah |
+| Struktur Kode Program | Haydar Istma Ulhaq |
+| Demo Program | Hammam Muhammad Shidqii |
+| Analisis | Muhammad Ardra Wirya |
+| Pembagian Tugas Kelompok | Achwan Anwar Hakim |
+
+---
+
+## 📌 Status Proyek
+
+Status saat ini: Siap untuk Pengumpulan UAS PPBO.
+
+Repository masih dapat menerima perbaikan minor, penyempurnaan dokumentasi, dan penyesuaian berdasarkan hasil evaluasi kelompok sebelum batas waktu pengumpulan akhir.
