@@ -15,6 +15,36 @@ Game RPG Akademik bertema kampus Universitas Gadjah Mada yang menggabungkan kons
 
 ---
 
+---
+
+## 📸 Screenshot Game
+
+### Main Menu
+
+![Main Menu](docs/screenshots/menu.png)
+
+Tampilan awal game Fakultas Sihir UGM.
+
+### Inventory System
+
+![Inventory](docs/screenshots/inventory.png)
+
+Sistem inventory untuk melihat karakter, senjata, armor, dan item yang dimiliki pemain.
+
+### Shop System
+
+![Shop](docs/screenshots/shop.png)
+
+Toko untuk membeli weapon dan armor menggunakan Battle Point (BP).
+
+### Battle System
+
+![Battle](docs/screenshots/battle.png)
+
+Sistem pertarungan melawan monster menggunakan weapon dan skill yang dimiliki karakter.
+
+---
+
 ## 🛠️ Teknologi & Framework (Technology Stack)
 
 *   **Runtime Environment**: Java SDK 21 / 25
